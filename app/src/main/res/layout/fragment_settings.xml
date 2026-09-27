@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:text="Settings"
+        android:textSize="20sp"
+        android:layout_marginBottom="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Daily Calorie Goal"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/goalInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="e.g. 2000" />
+
+    <Button
+        android:id="@+id/saveGoalButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Goal"
+        android:layout_marginTop="12dp" />
+
+    <Switch
+        android:id="@+id/themeSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dark Mode"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/resetMacrosButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset Meals/Macros"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/resetWeightButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset Weight History"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>

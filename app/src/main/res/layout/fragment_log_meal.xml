@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- 🔍 Food Search -->
+        <EditText
+            android:id="@+id/foodSearchInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search food (e.g. Apple)" />
+
+        <Button
+            android:id="@+id/searchFoodButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search Food"
+            android:layout_marginTop="8dp" />
+
+        <!-- 🍽️ Meal Info -->
+        <EditText
+            android:id="@+id/mealNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Meal Name" />
+
+        <EditText
+            android:id="@+id/caloriesInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Calories"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/carbsInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Carbs"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/proteinInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Protein (g)"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/fatsInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fats (g)"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Meal"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>

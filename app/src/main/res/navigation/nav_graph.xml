@@ -1,0 +1,29 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.calztrackerapp.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/logMealFragment"
+        android:name="com.example.calztrackerapp.ui.log.LogMealFragment"
+        android:label="Log Meal"
+        tools:layout="@layout/fragment_log_meal" />
+    <fragment
+        android:id="@+id/progressFragment"
+        android:name="com.example.calztrackerapp.ui.progress.ProgressFragment"
+        android:label="Progress"
+        tools:layout="@layout/fragment_progress" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.calztrackerapp.ui.settings.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>
